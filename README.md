@@ -10,6 +10,7 @@ This is an exploration into the factors that the biggest effect on retail sales 
 ## Insights
 
 ![image](https://github.com/abunchoftigers/Prediction-of-Product-Sales/assets/142643241/8dea5978-5bc8-4139-b908-2d8c2a5cb63f)
+
 This histogram shows that the majority of products fall within the bottom third of sales volume among all products.
 
 
