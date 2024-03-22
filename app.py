@@ -30,6 +30,11 @@ if st.button("Summary Information"):
   st.text(summary_info)
 
 
+# =======================================================================
+# PART B
+# =======================================================================
+
+
 import matplotlib.pyplot as plt
 
 if st.button("Null Values"):
