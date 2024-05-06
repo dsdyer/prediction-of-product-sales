@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="images/data-science.jpg" /> 
+</p>
+
+
 # Prediction of Product Sales
 Understanding and Modeling Grocery Retail Sales
 
