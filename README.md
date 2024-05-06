@@ -12,6 +12,17 @@ Understanding and Modeling Grocery Retail Sales
 
 This is an exploration into the factors that the biggest effect on retail sales for a number of grocery products.
 
+## Data Source
+
+Big Mart Sales Prediction: https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/
+
+For this dataset, there were 8523 rows and 12 columns
+
+## Data Dictionary
+<p align="center">
+  <img src="images/sales-data-dictionary.png />  
+</p>
+
 ## Insights
 
 ![image](https://github.com/abunchoftigers/Prediction-of-Product-Sales/assets/142643241/8dea5978-5bc8-4139-b908-2d8c2a5cb63f)
