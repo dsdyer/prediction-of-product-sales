@@ -16,7 +16,9 @@ This is an exploration into the factors that the biggest effect on retail sales 
 
 Big Mart Sales Prediction: https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/
 
-For this dataset, there were 8523 rows and 12 columns
+The dataset is 2013 sales data for 1559 products across 10 stores in different cities.
+
+For this dataset, there were 8523 rows and 12 columns.
 
 ## Data Dictionary
 <p align="center">
