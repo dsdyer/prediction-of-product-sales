@@ -14,7 +14,7 @@ This is an exploration into the factors that the biggest effect on retail sales 
 
 ## Data Source
 
-Big Mart Sales Prediction: (https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/)[https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/]
+Big Mart Sales Prediction: https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/
 
 The dataset is 2013 sales data for 1559 products across 10 stores in different cities.
 
@@ -48,9 +48,8 @@ This histogram shows that the majority of stores sold about 1500-1800 of the maj
 ## Explanatory Visuals
 
 <p align = "center"> 
-  <img src = "https://raw.githubusercontent.com/coding-dojo-data-science/Project1_Exemplar/main/explanatory1.png">
+  <img src = "images/sales-by-item-type-barplot.png">
 </p>
-
 
 The five highest selling product groups and their sales are as follows:
 
@@ -68,19 +67,13 @@ The five lowest selling product groups and their sales are as follows:
   - Baking Goods: `1952.97`
   - Others: `1926.14`
 
-<p align = "center"> 
-  <img src = "ht/,tps://raw.githubusercontent.com/coding-dojo-data-science/Project1_Exemplar/main/explanatory2.png">
-</p>
-
 Interestingly, the "Low Fat" distinction had very little effect on product sales.
 
 <p align = "center"> 
   <img src = "images/sales-by-item-fat-content.png">
 </p>
 
-
 These two graphs show that the most sales occurred at medium-size type 3 supermarkets.
-
 
 <p align = "center"> 
   <img src = "images/sales-by-outlet-type.png">
