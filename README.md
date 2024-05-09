@@ -69,7 +69,7 @@ The five lowest selling product groups and their sales are as follows:
   - Others: `1926.14`
 
 <p align = "center"> 
-  <img src = "https://raw.githubusercontent.com/coding-dojo-data-science/Project1_Exemplar/main/explanatory2.png">
+  <img src = "ht/,tps://raw.githubusercontent.com/coding-dojo-data-science/Project1_Exemplar/main/explanatory2.png">
 </p>
 
 Interestingly, the "Low Fat" distinction had very little effect on product sales.
@@ -90,66 +90,55 @@ These two graphs show that the most sales occurred at medium-size type 3 superma
   <img src = "images/sales-by-outlet-size.png">
 </p>
 
-<!-- 
+
  ### Maching Learning Using the Following Models:
     - Linear Regression Model
-    - Decision Tree Regressor Model
-    - Tuned Decision Tree Regressor Model
     - Random Forest Regressor Model
     - Tuned Random Forest Regressor Model
-    
+    - GridSearch-Optimized Random Forest Regressor Model
     
 ## Models Evaluated & Results
 
 - Linear Regression Model (Testing Set):
-  - R^2: -1.442820300359156e+22
-  - MAE: 2065461996953278.5
-  - MSE: 6.752807031244359e+31
-  - RMSE: 8217546489825512.0
-
-- Decision Tree Regressor Model (Testing Set):
-  - R^2: 0.186
-  - MAE: 41512.219
-  - MSE: 3809835283.133
-  - RMSE: 61723.863
-
-- Tuned Decision Tree Regressor Model (Testing Set):
-  - R^2: 0.462
-  - MAE: 34610.985
-  - MSE: 2517885802.26
-  - RMSE: 50178.539
+  - MAE = 10,895,680,294.955
+  - MSE = 63,245,858,807,140,010,950,656.000
+  - RMSE = 251,487,293,530.190
+  - R^2 = -23,122,029,410,410,080.000
 
 - Random Forest Regressor Model (Testing Set):
-  - R^2: 0.56
-  - MAE: 31872.362
-  - MSE: 2061515521.69
-  - RMSE: 45403.915
+  - MAE = 779.390
+  - MSE = 1,252,662.371
+  - RMSE = 1,119.224
+  - R^2 = 0.542
 
 - Tuned Random Forest Regressor Model (Testing Set):
-  - R^2: 0.563
-  - MAE: 31998.943
-  - MSE: 2044264641.827
-  - RMSE: 45213.545
+  - MAE = 779.390
+  - MSE = 1,252,662.371
+  - RMSE = 1,119.224
+  - R^2 = 0.542
+
+- Optimized Random Forest Regressor Model (Testing Set):
+  - MAE = 756.662
+  - MSE = 1,162,612.009
+  - RMSE = 1,078.245
+  - R^2 = 0.601
 
 
-- The Final Model Chosen was a `Random Forest Regressor Model` with the n_estimators tuned to 50.
-- For the testing set on the model, `56.3%` of the variance in y was explained by x. 
-- The Mean Absolute Error was off by about `$31,998.94`.
-- The Mean Squared Error was `$2,044,264,641.83`.
-- The Root Mean Squared Error had a calculation of `$45,213.55`.
+- The Final Model Chosen was a `Optimized Random Forest Regressor Model` with the n_estimators tuned to 100.
+- For the testing set on the model, `60.1%` of the variance in y was explained by x. 
+- The Mean Absolute Error was off by about `756` sales.
+- The Mean Squared Error was `1,162,612` sales.
+- The Root Mean Squared Error had a calculation of `1,078` sales.
 
-Using this model to make predictions about the best places to live and which careers to choose to earn the most money would not be a very reliable. Considering the previous regression metrics from how the model performed, there is a disparity between the R^2 score and also the Root Mean Squared Error that cannot be ignored.
+Using this model to make predictions about future product sales would be somewhat reliable, with an expected accuracy per prediction of roughly **60%**. This indicates that while we are on the right track, our training data is likely missing crucial features necessary to more accurately forecast sales.
 
 ## Recommendations
 
-Data Science Insights
+Sales Insights
 
-- For those who have an interest in Data Science:
-  - Data Analytics Leads & Principal Data Engineers earn the most amount of money. However, this are usually not entry level careers and I would recommend going through a program, like Coding Dojo, where you can earn your data science certificate and then map out your career to these positions.
+- Medium-sized type 3 supermarkets may be the most effective sales environments across all products
+- Regular and non-fat versions of products should be stocked in roughly equal numbers
 
-  - Data Engineers & Data Scientists have the most 100% remote positions. So, if you are wanting to work from home, or work from anywhere in the world, choosing one of the top five remote positions would be a good choice to build your career upon.
-  
-  - Lastly, the trend for the last three years show that data science and related fields are increasingly earning more money each year. So, choosing a career in one of these fields can be very lucrative.
 
 Model Performance
 - Overall, the best model is definitely the tuned Random Forest Regressor Model. There was still some bias in the model, but by far it outperformed the linear regression model. 
@@ -157,10 +146,10 @@ Model Performance
 
 ## Limitations & Next Steps
 
-From here, a student could use the insights from the visuals on how to tailor their path for their career. As mentioned before, Coding Dojo has a fantastic program that prepares inspiring data scientists for the field of data science. 
+The accuracy of this model is limited by the data available for training. This model could be improved substantially by re-training on either a larger dataset, or one with more visisblity into relevant features.
 
 ## For Further Information
 
 For any additional questions, please contact: 
 - David Dyer
-- dsdyer@gmail.com -->
+- dsdyer@gmail.com
