@@ -28,7 +28,7 @@ For this dataset, there were 8523 rows and 12 columns.
 ## To prepare this data, the data was cleaned, and the following processes were performed:
 
 ### Exploratory Data Analysis
-    - During the exploratory data analysis, a boxplot and histogram was visualized for each numeric datatype column. 
+    - During the exploratory data analysis, a boxplot and histogram were visualized for each numeric datatype column. 
     - Also, a barplot was visualized for each categorical column. 
     - This gave a good baseline for all of the numeric and categorical columns for univariate EDA.
     
@@ -40,10 +40,8 @@ For this dataset, there were 8523 rows and 12 columns.
 This histogram shows that the majority of stores sold about 1500-1800 of the majority of products.
 
  ### Expanatory Data Analysis
-    - To visualize the data for explantory purposes, three bargraphs were chosen and one linegraph was chosen.
+    - To visualize the data for explantory purposes, three bargraphs were chosen.
     - The bargraphs were chosen to show how the categories compare to each other. 
-    - Finally, a linegraph was chosen to show the trend of salaries over the past three years. 
-
 
 ## Explanatory Visuals
 
